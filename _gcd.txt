@@ -1,0 +1,5 @@
+//获得两个数的最大公约数
+
+public int _gcd(int a,int b){
+	return b==0 ? a:a%b;
+}
